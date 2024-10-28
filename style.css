@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* Define 3 colunas de 100px */
+    grid-template-rows: repeat(3, 100px); /* Define 3 linhas de 100px */
+    gap: 10px; /* Espaço entre as células */
+    margin-bottom: 20px;
+}
+
+.cell {
+    background-color: #fff;
+    border: 2px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    cursor: pointer;
+    width: 100px; /* Define a largura da célula */
+    height: 100px; /* Define a altura da célula */
+    transition: background-color 0.2s;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+.cell:active {
+    background-color: #ddd;
+}
+
+.status {
+    margin: 20px;
+    font-size: 1.2em;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
