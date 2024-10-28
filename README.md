@@ -17,10 +17,14 @@ Este é um simples jogo da velha (tic-tac-toe) implementado com **HTML**, **CSS*
 
 ## Captura de tela
 
-![Jogo da Velha](./screenshot.png)
+![Jogo da Velha](./img/Captura.png)
 
-## Como jogar
+### Jogue clicando no link abaixo:
+
+([jogo-velha-coral.vercel.app](https://jogo-velha-coral.vercel.app)).
 
 1. Faça o download ou clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/ronnysenna/jogo-velha
+
+
